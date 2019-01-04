@@ -1,5 +1,5 @@
 # spotireader
-A python script, that monitors the dbus of Spotify and writes currently playing songs to a file
+A python script, that monitors the dbus of Spotify and writes currently playing songs to a file, mainly for streaming purposes
 <br>
 "Spotireader" hooks to the DBus-Signal <i>PropertiesChanged</i> of <code>org.freedesktop.DBus.Properties</code> to monitor changes of
 <code>org.mpris.MediaPlayer2.spotify</code> and writes song name and artist to a file
